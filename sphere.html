@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sphere.css" />
+    <title>PAGE</title>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div id="ticket-form">
+        <input id="source-input" placeholder="enter source">
+        <input id="destination-input" placeholder="enter destination">
+        <button id="distance-button">calcualate distance!</button>
+        <div>
+            <p>Di-graph distance:</p>
+            <h2 id="distance-heading"></h2>
+        </div>
+        <div>
+            <p>Warshall Distance:</p>
+            <h2 id="warshall-distance-heading"></h2>
+        </div>
+        <div>
+            <p>Traced Path:</p>
+            <p id="path"></p>
+        </div>
+    </div>
+</body>
+<script src="./globe-gl.min.js"></script>
+<script src="./d3_min.js"></script>
+<script src="./sphere.js"></script>
+
+</html>

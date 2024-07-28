@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(78, 77, 77);
+    color: #124600;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 1.5rem;
+    width: 175px;
+}
+
+#ticket-form>div>p {
+    font-size: 0.8rem;
+    color: white;
+    /* text-shadow: 2px 2px 0 white; */
+}
+
+#ticket-form {
+    position: absolute;
+    background-color: teal;
+    border: 3px solid white;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    left: 0;
+    bottom: 0;
+    font-family:"Anonymous Pro", Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    padding-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+#path {
+    /* display: inline; */
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#matrix {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 90vh;
+    width: 60vw;
+}
